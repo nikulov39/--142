@@ -1,0 +1,5 @@
+#lnclude <iostream>
+
+int main()
+{
+  std::count<<"Hello">>
