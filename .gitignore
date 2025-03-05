@@ -20,7 +20,8 @@
 *.mod
 *.smod
 
-# Compiled Static libraries
+# Compileпампарампарам
+d Static libraries
 *.lai
 *.la
 *.a
