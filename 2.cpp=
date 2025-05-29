@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath> 
 using namespace std;
 
 /**
@@ -75,7 +76,7 @@ int main()
 
 double getValue()
 {
-    double value;
+    double value = 0;
     cin >> value;
     if (cin.fail())
     {
@@ -97,14 +98,16 @@ double getcomp(const double x, const double y)
 {
     return x * y;
 }
-double getdivi(const double x, const double  y)
+
+double getdivi(const double x, const double y)
 {
-    if (y == 0)
+    if (abs(y) < std::numeric_limits<double>::epsilon()) 
     {
         return 0; 
     }
-    else {
-
+    else
+    {
         return x / y;
     }
 }
+
