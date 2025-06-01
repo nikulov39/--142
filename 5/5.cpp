@@ -65,7 +65,7 @@ int main()
 
 int getValidN()
 {
-    int n;
+    int n= 0.0;
     cout << "Введите значение n: ";
     cin >> n;
 
@@ -81,7 +81,7 @@ int getValidN()
 
 double getValidE()
 {
-    double e;
+    double e = 0.0;
     cout << "Введите значение e (0 < e < 1): ";
     cin >> e;
 
